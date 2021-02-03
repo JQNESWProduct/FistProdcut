@@ -1,0 +1,6 @@
+buildroot:
+make
+
+u-boot, kernel:
+make ARCH=arm CROSS_COMPILE=/home/imx6/host/bin/arm-buildroot-linux-gnueabihf-
+
